@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="22" height="22" tilewidth="32" tileheight="32" nextobjectid="23">
+ <tileset firstgid="1" name="backgroundTileset" tilewidth="32" tileheight="32">
+  <image source="background.png" width="800" height="576"/>
+ </tileset>
+ <tileset firstgid="451" name="loadbarTileset" tilewidth="32" tileheight="32">
+  <image source="loadbar.png" width="256" height="64"/>
+ </tileset>
+ <layer name="backgroundLayer" width="22" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzN1bsNwjAUBVCbDgaAikiQHVIkzECTsAWwBj+xBASKAHMwAJ8VgCEicSMlwrL8eUYIKE7j2NfmPZN4jLEVrCGFDWxhAlOYwRwWmrGstIM9HMArtS2WhDkiOTfg9LVHxViuyRVF2KNX7iP/dtfzyuM61PXfypWd4AwXuErP+obzFGM3uMPDsfeVWJPL0CMONcKdsPXdVjdbnX6VGxNrqNs/hIhwHtW4b8gtzpU45NbRw4ahj9W8IYxgTKhjB3ld8Ln9f+LSn5C/3hHv5irvOfISGGjqYOp1rMjNDfNV5xHfrdT7WWlibUuxXpwTONTrX2UfIH83n3fIWqU=
+  </data>
+ </layer>
+ <layer name="blocksLayer" width="22" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzdVO0KwjAQs+//WG7q/JjTJzIiwREIOeYEMZAfvV7Ta3Pt2Dar4wLN3Rd0+z/R3SLWtff8HjyAA3ic5es46Z4QO7fX/Y/gFZzAG3if5es46S4F619bl/V/qksfFNRVffXNgT44Xfqj+Rp366vxqo7um87p7k112NcEz5n6N4F97c7l6tP63fvT9cxL9aX3p+t/7T9z/0217x3cf6P9UPWlOq++JV+q833or6V41v8APiOKzQ==
+  </data>
+ </layer>
+ <objectgroup name="objectsLayer">
+  <object id="22" name="player" type="player" x="96" y="576" width="32" height="32">
+   <properties>
+    <property name="type" value="player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
