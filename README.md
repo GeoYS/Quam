@@ -3,13 +3,31 @@ Quam, the warriors of song! This is a game in development with elements inspired
 
 Notes on project setup for Visual Studio Community 2013:
 
-Step 1. Create a new HTML with Typescript project
+Step 1. Set up git! Oh boy, this'll be messy.
 
-Step 2. Add the Phaser library to your project.
+  ```
+  i. Open VS 2013. Do not create a project.
+  
+  ii. Go to Team Explorer. Click the plug icon at the top. You should be in Connect.
+  
+  iii. Under Local Git Repositories, click clone. Enter in the GitHub URL, then select a (temporary) location to store the repo.
+  
+  iv. Now create a project, call it Quam or whatever. File > New > Project... > OK. No settings need be changed.
+  
+  v. Open up file explorer. Copy and paste the src and assets folders into the nested Quam folder (ie. second level).
+  
+  vi. Copy the other files (eg. .git, .gitignore, etc.) into the first Quam folder.
+  
+  vii. Back in VS 2013, go to Solution Explorer, and drag-and-drop the src folder from file explorer to "Quam". Not References, not Solutions 'Quam', not the white space around, but "Quam" (or whatever you named your project).
+  
+  viii. In Solution Explorer, right-click Solutions 'Quam', select Add Source Control.
+  
+  ix. Congratulations, you did it! Finish the rest few steps and see the fruit of your labour!
+  ```
 
-Step 3a. Pull the project from GitHub. (If you have trouble with this, see Step 7.)
+Step 2. Create a new HTML with Typescript project
 
-Step 3b. Actually, just go see Step 7!
+Step 3. Add the Phaser library to your project.
 
 Step 4. Go to Debug > Quam Properties... and make sure these things are set as such:
 
@@ -49,9 +67,3 @@ Step 5d. Add this to lines to your index.html in head:
   ```
   
 Step 6. You should be good after that. Try launching in Google Chrome!
-
-Step 7a. To sync with the GitHub repo, open Team Explorer, click the Home icon.
-
-Step 7b. Click Settings > Git Settings. Add your username and email.
-
-Step 7c. Click the Home icon again. Click Unsynced Commits, add the Quam GitHub url, and sync it up!!!
