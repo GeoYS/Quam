@@ -12,7 +12,7 @@ Step 1. Set up git! Oh boy, this'll be messy.
   
   iii. Under Local Git Repositories, click clone. Enter in the GitHub URL, then select a (temporary) location to store the repo.
   
-  iv. Now create a project, call it Quam or whatever. File > New > Project... > OK. No settings need be changed.
+  iv. Now create a new HTML with Typescript project, call it Quam or whatever. File > New > Project... > OK. No settings need be changed.
   
   v. Open up file explorer. Copy and paste the src and assets folders into the nested Quam folder (ie. second level).
   
@@ -25,17 +25,15 @@ Step 1. Set up git! Oh boy, this'll be messy.
   ix. Congratulations, you did it! Finish the rest few steps and see the fruit of your labour!
   ```
 
-Step 2. Create a new HTML with Typescript project
+Step 2. Add the Phaser library to your project. To do this, just copy and paste the required Phaser files into the nested Quam folder.
 
-Step 3. Add the Phaser library to your project.
-
-Step 4. Go to Debug > Quam Properties... and make sure these things are set as such:
+Step 3. Go to Debug > Quam Properties... and make sure these things are set as such:
 
   ~ The ECMAScript version is set to ECMAScript 5.
   ~ Set the Module system to None
   ~ Check ‘Combine JavaScript output into file’ and enter ‘game.js’ as the filename
 
-Step 5a. Add this code to the web.config file:
+Step 4a. Add this code to the web.config file:
 
   ```
   <system.webServer>
@@ -45,7 +43,7 @@ Step 5a. Add this code to the web.config file:
   </system.webServer>"
   ```
   
-Step 5b. Replace all code in app.ts with this: 
+Step 4b. Replace all code in app.ts with this: 
 
   ```
   window.onload = () => {
@@ -53,17 +51,17 @@ Step 5b. Replace all code in app.ts with this:
   };
   ```
 
-Step 5c. Delete this line from your index.html in head: 
+Step 4c. Delete this line from your index.html in head: 
 
   ```
   <script src="app.js"></script>
   ```
 
-Step 5d. Add this to lines to your index.html in head: 
+Step 4d. Add this to lines to your index.html in head: 
 
   ```
   <script src="phaser.js"></script>
   <script src="game.js"></script>
   ```
   
-Step 6. You should be good after that. Try launching in Google Chrome!
+Step 5. You should be good after that. Try launching in Google Chrome!
