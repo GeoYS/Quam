@@ -25,22 +25,22 @@ Step 1. Set up git! Oh boy, this'll be messy.
   ix. Congratulations, you did it! Finish the rest few steps and see the fruit of your labour!
   ```
 
-Step 2. Add the Phaser library to your project. To do this, just copy and paste the required Phaser files into the nested Quam folder.
+Step 2. Add the Phaser library to your project. To do this, right-click Quam in Solution Explorer > Add Existing Item. Add the following items: phaser.d.ts, phaser.js and phaser.min.js
 
-Step 3. Go to Debug > Quam Properties... and make sure these things are set as such:
+Step 3. Go to Debug > Quam Properties... > TypeScript Build and make sure these things are set as such:
 
   ~ The ECMAScript version is set to ECMAScript 5.
   ~ Set the Module system to None
   ~ Check ‘Combine JavaScript output into file’ and enter ‘game.js’ as the filename
 
-Step 4a. Add this code to the web.config file:
+Step 4a. Add this code to the web.config file, nested in <configuration></configuration>:
 
   ```
   <system.webServer>
     <staticContent>
       <mimeMap fileExtension=".json" mimeType="application/json" />
     </staticContent>
-  </system.webServer>"
+  </system.webServer>
   ```
   
 Step 4b. Replace all code in app.ts with this: 
