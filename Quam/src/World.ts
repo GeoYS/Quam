@@ -83,6 +83,8 @@
                 new Test.TestInialiser(),
                 new Test.TestState(),
                 new Test.TestCostume(),
+                new Test.TestController(),
+                new Test.TestInteractions(),
                 this);
             this.add(this.player);
 

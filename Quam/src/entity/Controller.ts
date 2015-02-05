@@ -1,6 +1,6 @@
 ﻿module Quam {
 
-    export class State {
+    export class Controller {
 
         entity: Entity;
 
@@ -8,8 +8,8 @@
             this.entity = entity;
         }
 
-        updateEntity() {
+        controlEntity() {
 
         }
     }
-} 
+}  
