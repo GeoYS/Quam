@@ -1,0 +1,17 @@
+#Quam
+
+Concept Summary
+
+An arena/stage fighting game in with a focus on the music. Characters fight based on a set of standard moves that each character has and a set of special moves that are unique to each character. As each round of battle plays out, power-boosts flow down to each character to the beat of the music associated to each character (eg. bass could be associated to the ground-focused character). Each power-boost is presented with a direction. The character must attack in that direction to gain a boost, thus making the move predictable and increasing the risk. The risk is emphasized because boosted moves cannot be exitted from mid-attack. This, of course, implies regular attacks can be exitted. While this is true for most moves, it depends on the specific character and attack. Generally, exitting a move will cause a moment of stablity/uncontrollability; in other words, it comes with a recovery time. However, one incentive of following the boosts/beat (ie. not attacking when not boosted and using each boost) is that the boost builds up in power, almost like a multiplier. To wrap things up, the aim of the game is essentially to follow the beat, be quick in responding to moves, and accurately attack the others.
+
+Story
+
+The world of this game is driven by music. In fact, the world is composed of music, a world built upon intertwining melodies, supported by strong harmonies, and layed over rock-solid bass; a world where percussive beats permeate through the bones of every citizen. With music being such an inherent part of life, it is only natural that people would strive to one with the music. From this, tournaments sprung to see who was truly the master of music. 
+
+Game Requirements
+
+The game requires: a game menu screen, level/arena designs, characters, AI, art, music, a tutorial, a character selection screen, level selection screen, an arena mode, and optionally a story mode.
+
+Character Action
+
+Character control will have a similar feel to the standard 2D platforming controls. There are three classifications of action: regular action, dash action, and boosted action. Regular actions include walking/running, jumping, and blocking. Dash actions include double jumping, floating, dashing, wall jumping, and stomping. Boosted actions are a subset of dash actions, with each being unique to characters.
